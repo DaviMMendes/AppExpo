@@ -1,40 +1,32 @@
 {
   "expo": {
     "name": "PortifolioGame",
-    "slug": "appexpo",
-    "owner": "davimendes",
+    "slug": "portifoliogame",
+    "owner": "davimmendes",
     "version": "1.0.0",
-    "description": "Portfólio mobile desenvolvido em React Native com Expo, Expo Router e jogo interativo integrado ao aplicativo.",
-    "githubUrl": "https://github.com/DaviMMendes/AppExpo",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
-    "scheme": "appexpo",
+    "scheme": "portifoliogame",
     "userInterfaceStyle": "dark",
     "newArchEnabled": true,
-    "platforms": [
-      "ios",
-      "android",
-      "web"
-    ],
-    "splash": {
-      "image": "./assets/splash-icon.png",
-      "resizeMode": "contain",
-      "backgroundColor": "#020617"
-    },
     "ios": {
       "supportsTablet": true,
-      "bundleIdentifier": "com.davimendes.appexpo"
+      "bundleIdentifier": "com.appdavi.portifoliogame"
     },
     "android": {
-      "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
-        "backgroundColor": "#020617"
-      },
-      "edgeToEdgeEnabled": true,
-      "package": "com.davimendes.appexpo"
+      "package": "com.appdavi.portifoliogame",
+      "edgeToEdgeEnabled": true
     },
-    "web": {
-      "favicon": "./assets/favicon.png"
+    "web": {},
+    "extra": {
+      "eas": {
+        "projectId": "6c261288-d2e6-4c7f-982d-f888c9531fdf"
+      }
+    },
+    "runtimeVersion": {
+      "policy": "appVersion"
+    },
+    "updates": {
+      "url": "https://u.expo.dev/6c261288-d2e6-4c7f-982d-f888c9531fdf"
     }
   }
 }
