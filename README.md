@@ -57,3 +57,7 @@ O aplicativo possui navegação entre múltiplas telas usando **Expo Router**, s
 - JogoDados
 - Aplicativo AFA
 - Atividade Imposto de Renda
+
+## Link do app publicado no Expo
+
+https://expo.dev/accounts/appdavi/projects/portifoliogame
