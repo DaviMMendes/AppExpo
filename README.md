@@ -6,7 +6,7 @@ O app apresenta informações pessoais, formação acadêmica, experiências, pr
 ## Aluno
 
 **Davi Magalhães Mendes**
-
+      **852600**
 ## Curso
 
 **Ciência da Computação - UNICAP**  
