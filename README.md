@@ -7,10 +7,6 @@ O app apresenta informações pessoais, formação acadêmica, experiências, pr
 
 **Davi Magalhães Mendes**
       **852600**
-## Curso
-
-**Ciência da Computação - UNICAP**  
-Atualmente no **5º período**.
 
 ## Sobre o projeto
 
@@ -61,10 +57,3 @@ O aplicativo possui navegação entre múltiplas telas usando **Expo Router**, s
 - JogoDados
 - Aplicativo AFA
 - Atividade Imposto de Renda
-
-## Como executar o projeto
-
-Clone o repositório:
-
-```bash
-git clone https://github.com/DaviMMendes/AppExpo.git
