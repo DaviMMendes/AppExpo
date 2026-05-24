@@ -27,6 +27,9 @@
     },
     "updates": {
       "url": "https://u.expo.dev/6c261288-d2e6-4c7f-982d-f888c9531fdf"
-    }
+    },
+    "plugins": [
+      "expo-router"
+    ]
   }
 }
