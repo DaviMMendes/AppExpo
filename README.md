@@ -60,4 +60,4 @@ O aplicativo possui navegação entre múltiplas telas usando **Expo Router**, s
 
 ## Link do app publicado no Expo
 
-https://expo.dev/accounts/appdavi/projects/portifoliogame
+[https://expo.dev/accounts/appdavi/projects/portifoliogame](https://expo.dev/accounts/appdavi/projects/portifoliogame-appdavi)
