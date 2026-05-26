@@ -1,9 +1,9 @@
 {
   "expo": {
     "name": "PortifolioGame",
-    "slug": "portifoliogame",
-    "owner": "davimmendes",
-    "version": "1.0.0",
+    "slug": "portifoliogame-appdavi",
+    "owner": "appdavi",
+    "version": "1.0.54",
     "orientation": "portrait",
     "scheme": "portifoliogame",
     "userInterfaceStyle": "dark",
@@ -17,19 +17,20 @@
       "edgeToEdgeEnabled": true
     },
     "web": {},
-    "extra": {
-      "eas": {
-        "projectId": "6c261288-d2e6-4c7f-982d-f888c9531fdf"
-      }
-    },
+    "plugins": [
+      "expo-router"
+    ],
     "runtimeVersion": {
       "policy": "appVersion"
     },
-    "updates": {
-      "url": "https://u.expo.dev/6c261288-d2e6-4c7f-982d-f888c9531fdf"
+    "extra": {
+      "router": {},
+      "eas": {
+        "projectId": "e880d79a-5769-4607-ad55-5d5894832001"
+      }
     },
-    "plugins": [
-      "expo-router"
-    ]
+    "updates": {
+      "url": "https://u.expo.dev/e880d79a-5769-4607-ad55-5d5894832001"
+    }
   }
 }
