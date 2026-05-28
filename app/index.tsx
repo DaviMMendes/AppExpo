@@ -1,8 +1,10 @@
 import { Link } from "expo-router";
-import { StyleSheet, Text, View } from "react-native";
+import { Image, StyleSheet, Text, View } from "react-native";
 import { Card } from "../components/Card";
 import { Screen } from "../components/Screen";
 import { profile } from "../constants/profile";
+
+const profileImage = require("../assets/profile.jpeg");
 
 const links = [
   { label: "Sobre", href: "/sobre" },
@@ -16,6 +18,10 @@ export default function Home() {
   return (
     <Screen>
       <View style={styles.hero}>
+        <View style={styles.avatarContainer}>
+          <Image source={profileImage} style={styles.avatar} />
+        </View>
+
         <Text style={styles.name}>{profile.name}</Text>
         <Text style={styles.title}>{profile.title}</Text>
         <Text style={styles.age}>{profile.age}</Text>
@@ -49,30 +55,53 @@ export default function Home() {
 
 const styles = StyleSheet.create({
   hero: {
-    paddingVertical: 28,
+    alignItems: "center",
+    paddingVertical: 30,
+  },
+  avatarContainer: {
+    width: 142,
+    height: 142,
+    borderRadius: 71,
+    backgroundColor: "rgba(56, 189, 248, 0.18)",
+    borderWidth: 3,
+    borderColor: "#38bdf8",
+    justifyContent: "center",
+    alignItems: "center",
+    marginBottom: 18,
+  },
+  avatar: {
+    width: 128,
+    height: 128,
+    borderRadius: 64,
+    resizeMode: "cover",
   },
   name: {
     color: "#f8fafc",
-    fontSize: 36,
+    fontSize: 34,
     fontWeight: "900",
+    textAlign: "center",
   },
   title: {
     color: "#38bdf8",
     fontSize: 20,
     fontWeight: "700",
     marginTop: 6,
+    textAlign: "center",
   },
   age: {
     color: "#94a3b8",
     fontSize: 16,
     fontWeight: "700",
     marginTop: 4,
+    textAlign: "center",
   },
   summary: {
     color: "#cbd5e1",
     fontSize: 16,
     lineHeight: 24,
     marginTop: 16,
+    textAlign: "center",
+    maxWidth: 720,
   },
   cardTitle: {
     color: "#f8fafc",
